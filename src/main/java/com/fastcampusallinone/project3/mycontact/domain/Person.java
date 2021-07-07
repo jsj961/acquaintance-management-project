@@ -18,6 +18,7 @@ import java.time.LocalDate;
 @Data
 @Where(clause = "deleted = false")
 public class Person {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
